@@ -16,6 +16,8 @@ body
 	flex-direction: column;
 	padding: 15px;
 	box-shadow: 2px 3px 2px #000000;
+	text-align: center;
+	font-family: serif;
 }
 
 input[type="text"]
@@ -54,4 +56,44 @@ input[type="submit"]
 	text-align: center;
 	border-radius: 5px;
 	color: #000000;
+}
+
+@media screen and (max-width: 1100px)
+{
+	.box-login
+	{
+		width:40%;
+	}
+}
+
+@media screen and (max-width:910px)
+{
+	.box-login
+	{
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 670px)
+{
+	.box-login
+	{
+		width:60%;
+	}
+}
+
+@media screen and (max-width:540px)
+{
+	.box-login
+	{
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 450px)
+{
+	.box-login
+	{
+		width: 80%;
+	}
 }
